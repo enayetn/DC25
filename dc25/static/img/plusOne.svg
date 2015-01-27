@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="49.497475"
+   height="49.497475"
+   id="svg4067"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="plusOne.svg">
+  <defs
+     id="defs4069" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="68.873026"
+     inkscape:cy="32.302927"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="1592"
+     inkscape:window-y="64"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4072">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-349.53699,-201.89917)">
+    <g
+       style="font-size:54.81424332px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#050505;fill-opacity:1;stroke:none;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+       id="text3973"
+       transform="translate(1.6071429,0)">
+      <path
+         d="m 364.10044,217.57336 -4.27546,0 0,7.39983 -7.34501,0 0,4.27545 7.34501,0 0,7.50946 4.27546,0 0,-7.50946 7.34501,0 0,-4.27545 -7.34501,0 z"
+         id="path2985"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 378.76248,217.02523 4.65915,0 0,29.27042 6.02949,0 0,-38.36947 -4.0562,0 c -0.39284,1.32812 -1.03233,2.45408 -1.91847,3.37788 -0.88617,0.92387 -2.45749,1.40577 -4.71397,1.44571 z"
+         id="path2987"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

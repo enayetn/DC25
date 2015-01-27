@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bringing together DC's finest, 25 at a time">
+    <meta name="author" content="DC25">
+    <link rel="icon" type="image/x-icon" href="../static/img/dc25ico.png">
+
+    <title>DC25 | Bringing together DC's finest, 25 at a time</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/css/dc25.css" rel="stylesheet">
+    <link href="../static/css/animate.css" rel="stylesheet">
+    <link href="../static/fonts/BebasNeue.otf" rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="background-color:#050505;">
+<!--[if lte IE 9]>
+    <div class="text-center" style="background-color:#FF9900;">
+        For a divine browsing experience, please update your Internet Explorer, or switch to Google Chrome
+    </div>
+<![endif]-->
+    <!-- Page Content -->
+        <div class="container" id="landingContent">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="dc25img" title="Bringing together DC's finest, 25 at a time" src="../static/img/dc25.svg"/>
+                    <!--<p class="lead">Bringing together DC's finest, 25 at a time</p>-->
+
+                   <!-- Form Content -->
+                   <form id="register"  action="{{ url_for('shortlist') }}" method="post">
+                       <span class="spacer">JOIN THE SHORTLIST: </span><br><input placeholder="your  email"  type="text" name="email"  align="middle" size="30"><br>
+                       <input type="submit" value="JOIN">
+                   </form>
+                   <!-- /Form Content -->
+                   <a href="#infoID"><img id="object" class="moreInfoArrow floating" src="../static/img/arrow.png" /></a>
+
+                </div>
+            </div>
+            
+            <!-- /.row -->
+
+        </div>
+
+    <div class="shadow"></div>
+
+    <div class="info" id="infoID">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-1"></div>
+                <div class="col-sm-6 col-md-10">
+                   <p id="meetYour">JOIN AND MEET YOUR NEXT:<br></p>
+                   <p id="nextContent"><span class="spacer">{</span><span data-typer-targets="best friend, wing man, best man, brunch mate, bridesmaid, co-founder, job referral">co-founder</span><span class="spacer">}</span></p>
+                   <div class="divideTop"><hr class="dc25"></div>
+                   <p id="explain">How does it work?</p>
+                   <h4 id="subExplain" class="clearsans">The DC25 is a professional networking club designed to bring together top performing young professionals in the DC area from various industries to encourage cross-industry networking and collaboration. If you're a talented and busy young professional looking to expand your social and professional circle, look no further -- DC25 will take care of you. In the town that loves to brunch, we organize small brunches  to help you meet new, awesome people around town. After getting to know you, we set you up with a group of like minded individuals. We know you're busy, so just sign up, show up and we guarantee you'll have an amazing time, with amazing people.</h4>
+                   <div class="divideBot"><hr class="dc25"></div>
+                </div>
+                <div class="col-sm-6 col-md-1"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="row features text-center">
+         
+                <div class="col-sm-6 col-md-3">
+                    <div> 
+                        <img src="../static/img/connect.svg" >
+                        <div class="detailsText">
+                            <span class="detailsTitle">MATCH</span>
+                            <h4 class="clearsans deets">We match you with awesome people</h4>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="col-sm-6 col-md-3">
+                    <div> 
+                        <img src="../static/img/meet.svg" >
+                        <div class="detailsText">
+                            <span class="detailsTitle">MEET</span>
+                            <h4 class="clearsans deets">You show up</h4>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="col-sm-6 col-md-3">
+
+                    <div class="relax"> 
+                        <img src="../static/img/relax.svg" >
+                        <div class="detailsText">
+                            <span class="detailsTitle">RELAX</span>
+                            <h4 class="clearsans deets">No more scrambling for a last minute reservation</h4>
+                        </div>
+                    </div>
+
+                    <div id="overlay">
+                      <div id="registration">
+                        <a href="#" class="close">Close</a>
+                        <h1>Design Meetup</h1>
+                      </div>
+                    </div>
+
+
+                </div>
+
+               
+                 
+                <div class="col-sm-6 col-md-3">
+                    <div> 
+                        <img src="../static/img/free.svg" >
+                        <div class="detailsText">
+                            <span class="detailsTitle">ON US</span>
+                            <h4 class="clearsans deets">And leave your wallet at home... it's on us</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <!-- /.container -->
+
+        <p class="text-center" id="explain">INTERESTED?</p>
+        <div class="container col-12 text-center moreInfoArrow toTop">
+            <a  href="#landingContent">
+                <img id="object" class="moreInfoArrow floating" src="../static/img/arrow.png" />
+            </a>
+        </div>
+
+    </div>
+
+    
+
+    
+    <div class="footer dc25footer">
+      <div class="container">
+        <p class="text-muted">2014 DC25</p>
+        <div class="row">
+            <a href="https://twitter.com/TheDC25" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/js/bootstrap.min.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script src="../static/js/smoothScroll.js"></script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <!--UILANG-->
+    <script src="../static/js/uilang.js"></script>
+
+    <!--  Typer  -->
+    <script src="../static/js/jquery.typer.js"></script>
+    <script>
+        $(function () {
+          $('[data-typer-targets]').typer();
+        });
+    </script>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript">
+        api_key: 77waee5pgjtr3s
+        authorize: true
+        lang:  es_ES
+      </script>
+
+</body>
+
+</html>
